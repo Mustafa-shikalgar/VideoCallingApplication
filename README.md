@@ -59,14 +59,3 @@ The project consists of two main components:
    - Audio will be streamed in real-time.
    - Click "End Call" or "Stop Call" to terminate the session.
 
-### Notes
-- The IP addresses are hardcoded in the code (Client connects to `192.168.139.53`, Server sends to `192.168.139.46`). Update these in `Client.java` and `Server.java` to match your network setup.
-- Ensure firewall settings allow the ports used (VIDEO_PORT: 4040, AUDIO_PORT: 12345).
-- For best performance, run on the same local network.
-
-## Troubleshooting
-
-- **Camera not opening**: Ensure your webcam is connected and not in use by another application.
-- **Audio issues**: Check microphone and speaker settings in your OS.
-- **Connection errors**: Verify IP addresses and network connectivity.
-- **OpenCV errors**: Ensure the native library is correctly loaded (add `-Djava.library.path=/path/to/opencv/native` to the java command).
