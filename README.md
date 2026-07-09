@@ -45,7 +45,6 @@ The project consists of two main components:
 3. Run `ant` to build the project. The compiled classes will be in `build/classes`.
 
 ## Usage
-
 1. **Start the Server**:
    - Run the Server class: `java -cp build/classes:lib/opencv-4xx.jar Server`
    - The server GUI will open, waiting for a client connection.
