@@ -57,4 +57,3 @@ The project consists of two main components:
    - Video from both sides will be displayed in the GUI.
    - Audio will be streamed in real-time.
    - Click "End Call" or "Stop Call" to terminate the session.
-
